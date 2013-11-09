@@ -11,13 +11,40 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131109165332) do
+ActiveRecord::Schema.define(version: 20131109195627) do
 
   create_table "books", force: true do |t|
     t.integer  "isbn"
     t.string   "title"
     t.string   "image_url"
     t.decimal  "price",      precision: 8, scale: 2
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "books_college_classes", id: false, force: true do |t|
+    t.integer "college_class_id"
+    t.integer "book_id"
+  end
+
+  create_table "college_classes", force: true do |t|
+    t.string   "course_id"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+
+  create_table "customers", force: true do |t|
+    t.string   "username"
+    t.string   "password"
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "semesters", force: true do |t|
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
