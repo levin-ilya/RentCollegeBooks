@@ -1,0 +1,28 @@
+// Place all the styles related to the Books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.books {
+  .list_table{
+    width: 50%;
+  }
+
+  .list_tile {
+    width: 40%;
+  }
+
+  .list_line_even {
+    background: #e0f8f8;
+  }
+
+  .list_line_odd{
+    background: #c9def8;
+  }
+
+  .list_image{
+    width: 60px;
+    height: 70px;
+  }
+
+}
