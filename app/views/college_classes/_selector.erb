@@ -1,0 +1,5 @@
+<select size="5" multiple>
+  <% @college_classes.each do |college_class| %>
+      <option value="college_class.id"><%= college_class.name %></option>
+  <% end %>
+</select>

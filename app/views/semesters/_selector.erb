@@ -1,0 +1,7 @@
+<select name="<%= name %>">
+ <% @semesters.each do |semester| %>
+      <option value="semester.id"><%= semester.name %></option>
+ <% end %>
+</select>
+
+collection_select
