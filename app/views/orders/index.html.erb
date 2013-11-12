@@ -1,0 +1,37 @@
+<h1>Listing orders</h1>
+<dl>
+    <% @orders.each do |order| %>
+     <dt><%= order.semester.name %></dt>
+          <% order.college_classes.each do |college_class| %>
+              <dd><%= college_class.course_id %> <%= college_class.name %><br>
+                  <%   college_class.books.each do |book|  %>
+                    <table border="1" cellpadding="0" cellspacing="0" width="50%">
+                      <tr>
+                        <td width="60px" >
+                          <%= image_tag(book.image_url,{:width => "60px",:height => "70px"}) %>
+                        </td>
+                        <td>
+                          Tile: <%= book.title %><br>
+                          ISBN:<%= book.isbn %>
+                        </td>
+                        <td width="60px">
+                          <%= book.price%>
+                        </td>
+                    </tr>
+                    </table>
+
+                  <% end %>
+              </dd>
+          <% end %>
+
+        <td><%= link_to 'Show', order %></td>
+        <td><%= link_to 'Edit', edit_order_path(order) %></td>
+        <td><%= link_to 'Cancel', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <br><br>
+    <% end %>
+</dl>
+
+<br>
+
+<%= link_to 'New Order', new_order_path %>
+<%= link_to 'Logout', :controller => 'customers',:action => 'logout' %>

@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Course:</strong>
+  <%= @college_class.course_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @college_class.name %>
+</p>
+
+<p>
+ <%= render "books/booklist" %>
+</p>
+
+<%= link_to 'Edit', edit_college_class_path(@college_class) %> |
+<%= link_to 'Back', college_classes_path %>
