@@ -1,4 +1,19 @@
 RentCollegeBooks::Application.routes.draw do
+  #devise_for :users
+
+  devise_for :users do
+    root :to => "devise/registrations#new"
+    get "/" => "devise/registrations#new"
+    post '/' => 'registrations#new', :as => :new_user_registration
+    match '/', :to => 'devise/registrations#new'
+    get "/edit" => "devise/registrations#edit"
+    match '/edit', :to => 'devise/registrations#edit'
+    get "/login" => "devise/sessions#new"
+    match '/login', :to => 'devise/sessions#new'
+    get "/logout" => "devise/sessions#destroy"
+    match '/logout', :to => 'devise/sessions#destroy'
+  end
+
   resources :orders
 
   resources :semesters
@@ -14,10 +29,7 @@ RentCollegeBooks::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'customers#new'
-   get 'login' => 'customers#login'
-   get 'logout' => 'customers#logout'
-   post 'login' => 'customers#login'
+   root 'orders#index'
    get 'account' => 'orders#index'
 
 

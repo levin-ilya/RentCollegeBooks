@@ -13,15 +13,15 @@
 
 
   <div class="field">
-    <%= f.hidden_field :user_id,:value => session[:user_id] %>
+    <%= f.hidden_field :name,:value => current_user.id %>
   </div>
   <div class="field">
       <%= f.label :semesters %><br>
-      <%= collection_select(:order,:semester,@semesters,:id,:name) %>
+      <%= collection_select(:order,:semester_id,@semesters,:id,:name,:selected=>@order.semester_id) %>
   </div>
   <div class="field">
     <%= f.label :college_classes %><br>
-    <%= collection_select(:order,:college_classes,@college_classes,:id,:name,{},{:size=>'5',:multiple => "true"}) %>
+    <%= collection_select(:order,:college_classes,@college_classes,:id,:name,{:selected => @selectedClasses},{:size=>'5',:multiple => "true"}) %>
   </div>
 
   <div class="actions">

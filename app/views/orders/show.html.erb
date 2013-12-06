@@ -2,12 +2,16 @@
 
 <p>
   <strong>Customer:</strong>
-  <%= @order.user_id %>
+  <%= @order.customer.username %>
 </p>
 
 <p>
   <strong>Semester:</strong>
   <%= @order.semester.name %>
+</p>
+
+<p>
+  <%= render :partial => 'order',:locals => {:order => @order} %>
 </p>
 
 <%= link_to 'Edit', edit_order_path(@order) %> |

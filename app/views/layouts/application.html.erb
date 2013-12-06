@@ -7,8 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body class='<%= controller.controller_name %>'>
+<div id="outer">
+  <nav>
+    <span id="logo">RentCollegeBooks.com</span>
+    <%= link_to "Home", root_path %>
 
-<%= yield %>
+    <% if user_signed_in? %>
+        <%= link_to "My Account", account_path %>
+        <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+  <% else %>
+        <%= link_to('Login', new_user_session_path)  %>
+    <% end %>
+  </nav>
+  <br><br>
 
+
+  <%= yield %>
+</div> <!-- outer div tag -->
 </body>
 </html>

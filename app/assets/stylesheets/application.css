@@ -11,3 +11,26 @@
  *= require_self
  *= require_tree .
  */
+div#outer{
+    margin: 0px auto;
+    width: 600px;
+}
+
+nav{
+    background-color: #eeeeee;
+    text-align: right;
+}
+
+span#logo{
+    margin-right: 300px;
+}
+
+div#login{
+    margin-right: 0px;
+}
+
+.order{
+    background-color: gainsboro;
+    border-radius: 3px;
+
+}
