@@ -7,6 +7,11 @@ class BooksController < ApplicationController
     @books = Book.all
   end
 
+  def search
+    query = params[:q]
+    @books = Book.where("title like '%#{query}%'")
+  end
+
   # GET /books/1
   # GET /books/1.json
   def show

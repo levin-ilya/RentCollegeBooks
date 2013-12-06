@@ -31,7 +31,8 @@ RentCollegeBooks::Application.routes.draw do
   # You can have the root of your site routed with "root"
    root 'orders#index'
    get 'account' => 'orders#index'
-
+   get 'search/:id'=> 'books#search'
+   get 'search'=> 'books#search'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

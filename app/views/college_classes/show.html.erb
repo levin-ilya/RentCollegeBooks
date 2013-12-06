@@ -11,7 +11,7 @@
 </p>
 
 <p>
- <%= render "books/booklist" %>
+  <%= render :partial => 'books/booklist',:locals => {:action=>'admin'}  %>
 </p>
 
 <%= link_to 'Edit', edit_college_class_path(@college_class) %> |

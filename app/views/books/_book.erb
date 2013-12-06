@@ -1,0 +1,22 @@
+<table class='books_table'>
+  <thead>
+  <tr>
+    <th>Isbn</th>
+    <th>Title</th>
+    <th>Image url</th>
+    <th>Price</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody>
+      <tr class="<%= cycle('list_line_odd','list_line_even') %>">
+        <td><%= book.isbn %></td>
+        <td class='list_tile'><%= book.title %></td>
+        <td ><%= image_tag(book.image_url,class:'list_image') %></td>
+        <td><%= book.price %></td>
+      </tr>
+  </tbody>
+</table>

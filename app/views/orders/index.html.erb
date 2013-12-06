@@ -1,4 +1,11 @@
 <h1>Listing orders</h1>
+<div id="booksearch">
+  <%= form_tag("/search", method: "get") do %>
+      <%= label_tag(:q, "Search for Books:") %>
+      <%= text_field_tag(:q) %>
+      <%= submit_tag("Search") %>
+  <% end %>
+</div>
 <dl>
     <% @orders.each do |order| %>
       <%= render :partial => 'order',:locals => {:order => order} %>

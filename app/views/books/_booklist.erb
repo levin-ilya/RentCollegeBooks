@@ -19,9 +19,19 @@
         <td ><%= image_tag(book.image_url,class:'list_image') %></td>
               <td><%= book.price %></td>
               <td>
-                <%= link_to 'Show', book %><br/>
-                <%= link_to 'Edit', edit_book_path(book) %><br/>
-                <%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %><br/>
+                <% if action=='admin' %>
+                    <%= link_to 'Show', book %><br/>
+                    <%= link_to 'Edit', edit_book_path(book) %><br/>
+                    <%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %><br/>
+                <%else%>
+                    Used in class:
+                    <ul>
+                      <% book.college_classes.each do |college_class| %>
+                      <li><%= college_class.name %></li>
+                      <% end %>
+                    </ul>
+
+                <% end %>
               </tr>
           <% end %>
           </tbody>
