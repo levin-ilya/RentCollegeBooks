@@ -4,8 +4,8 @@ class CreateBooksCollegeClasses < ActiveRecord::Migration
       t.integer :college_class_id
       t.integer :book_id
     end
-
-    add_index :college_class_id
-    add_index :book_id
+    #TO Add THIS back
+    #add_index :college_class_id
+    #add_index :book_id
   end
 end
