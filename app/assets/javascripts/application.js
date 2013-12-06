@@ -12,5 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
+
 //= require turbolinks
 //= require_tree .
+//= require twitter/typeahead
+
+$(document).ready(function() {
+    $('.typeahead').typeahead({
+        name: 'books',
+        remote: 'http://localhost:3000/search.json?q=%QUERY'
+        //local: [ "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune" ]
+    });
+});

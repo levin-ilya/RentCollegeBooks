@@ -10,6 +10,10 @@ class BooksController < ApplicationController
   def search
     query = params[:q]
     @books = Book.where("title like '%#{query}%'")
+    respond_to do |format|
+      format.html
+      format.json {render json:@books.map { |book| book.title}}
+    end
   end
 
   # GET /books/1

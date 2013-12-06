@@ -1,10 +1,15 @@
-<h1>Listing orders</h1>
 <div id="booksearch">
   <%= form_tag("/search", method: "get") do %>
       <%= label_tag(:q, "Search for Books:") %>
-      <%= text_field_tag(:q) %>
+      <%= text_field_tag(:q,'',{class:'typeahead',width:'100'}) %>
       <%= submit_tag("Search") %>
   <% end %>
+
+  <br>
+  <br>
+  <br>
+  <br>
+<h1>Listing orders</h1>
 </div>
 <dl>
     <% @orders.each do |order| %>

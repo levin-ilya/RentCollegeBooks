@@ -1,38 +1,42 @@
-<table class='books_table'>
-  <thead>
-  <tr>
-    <th>Isbn</th>
-    <th>Title</th>
-    <th>Image url</th>
-    <th>Price</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-  </thead>
+<% if @books.empty? %>
+    <p>No Books Found</p>
+<% else %>
+    <table class='books_table'>
+      <thead>
+      <tr>
+        <th>Isbn</th>
+        <th>Title</th>
+        <th>Image url</th>
+        <th>Price</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      </thead>
 
-  <tbody>
-  <% @books.each do |book| %>
-      <tr class="<%= cycle('list_line_odd','list_line_even') %>">
-        <td><%= book.isbn %></td>
-        <td class='list_tile'><%= book.title %></td>
-        <td ><%= image_tag(book.image_url,class:'list_image') %></td>
-              <td><%= book.price %></td>
-              <td>
-                <% if action=='admin' %>
-                    <%= link_to 'Show', book %><br/>
-                    <%= link_to 'Edit', edit_book_path(book) %><br/>
-                    <%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %><br/>
-                <%else%>
-                    Used in class:
-                    <ul>
-                      <% book.college_classes.each do |college_class| %>
-                      <li><%= college_class.name %></li>
-                      <% end %>
-                    </ul>
+      <tbody>
+      <% @books.each do |book| %>
+          <tr class="<%= cycle('list_line_odd','list_line_even') %>">
+            <td><%= book.isbn %></td>
+            <td class='list_tile'><%= book.title %></td>
+            <td ><%= image_tag(book.image_url,class:'list_image') %></td>
+            <td><%= book.price %></td>
+            <td>
+              <% if action=='admin' %>
+                  <%= link_to 'Show', book %><br/>
+                  <%= link_to 'Edit', edit_book_path(book) %><br/>
+                  <%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %><br/>
+              <%else%>
+                  Used in class:
+                  <ul>
+                    <% book.college_classes.each do |college_class| %>
+                        <li><%= college_class.name %></li>
+                    <% end %>
+                  </ul>
 
-                <% end %>
+              <% end %>
               </tr>
-          <% end %>
-          </tbody>
-          </table>
+      <% end %>
+      </tbody>
+    </table>
+<% end %>

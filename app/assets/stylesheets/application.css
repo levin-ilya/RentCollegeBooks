@@ -34,3 +34,12 @@ div#login{
     border-radius: 3px;
 
 }
+
+.tt-dropdown-menu{
+   background-color: #c9def8;
+   border-radius: 15px;
+}
+
+.tt-is-under-cursor{
+    background-color: #eeeeee;
+}
