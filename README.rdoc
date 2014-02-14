@@ -7,7 +7,7 @@
 * run 'rails server' to start the web server
 
 == Demo Actions
-* Click sign up to create a new user
+* Go to localhost:3000 and click sign up to create a new user
 * Once you've sign up you'll be redirected to the your acount page
 * Click on 'New Order' to add an order
 * On the order page you can select a semester and one or more classes and click summary
@@ -17,7 +17,7 @@
 == Auto-completion demo
 * On the 'My Order' page there is a search box at the top
 * Type in 'Rails' for a list of possible books
-* List on one of the results and then click on 'Search' to see the results
+* Click on one of the results and then click on 'Search' to see the results
 
 == Unit Testing
 * run 'rake test' to see testing results
