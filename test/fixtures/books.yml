@@ -1,0 +1,53 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+one:
+  isbn: 1
+  title: MyString
+  image_url: MyString
+  price: 1.99
+
+
+book_with_all_fields:
+  isbn: 1
+  title: MyString
+  image_url: MyString
+  price: 1.99
+
+book_with_no_title:
+  isbn: 2
+  image_url: MyString
+  price: 2.99
+
+book_with_no_price:
+  isbn: 2
+  title: MyString
+  image_url: MyString
+
+book_with_no_isbn:
+  title: MyString
+  image_url: MyString
+  price: 1.99
+
+book_with_no_img:
+  isbn: 1
+  title: MyString
+  price: 1.99
+
+book_with_price_one_cent:
+  isbn: 1
+  title: MyString
+  image_url: MyString
+  price: 0.01
+
+book_with_price_greater_one_cent:
+  isbn: 1
+  title: MyString
+  image_url: MyString
+  price: 1.00
+
+book_with_price_less_one_cent:
+  isbn: 1
+  title: MyString
+  image_url: MyString
+  price: 0.00
+
+
