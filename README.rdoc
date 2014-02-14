@@ -1,28 +1,23 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== Getting Started ==
+* run 'bundle' in  project directory
+* run 'rake db:migrate' to create the database
+* run 'rake db:seed' to add inital records to the database
+* run 'rails server' to start the web server
 
-Things you may want to cover:
+== Demo Actions ==
+* Click sign up to create a new user
+* Once you've sign up you'll be redirected to the your acount page
+* Click on 'New Order' to add an order
+* On the order page you can select a semester and one or more classes and click summary
+* You'll be presented with an order summary page
+* Click on "Back to My Order" to see a summary of all your orders
 
-* Ruby version
+== Auto-completion demo ==
 
-* System dependencies
+* On the 'My Order' page there is a search box at the top
+* Type in 'Rails' for a list of possible books
+* List on one of the results and then click on 'Search' to see the results
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== Unit Testing ==

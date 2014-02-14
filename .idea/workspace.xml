@@ -2,19 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262e0e7d-a286-4c5b-9a37-03df465a3caf" name="Default" comment="add logout and test data">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.rspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140214031819_drop_customers.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/customer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/books_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/college_classes_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/customers_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/semesters_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/books.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/college_classes.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/customers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/orders.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/semesters.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/books_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/college_classes_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/customers_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/orders_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/semesters_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/integration/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/mailers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/book_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/college_class_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/customer_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/order_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/semester_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20131111060601_remove_class_id.rb" afterPath="$PROJECT_DIR$/db/migrate/20131111060601_remove_class_id.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RentCollegeBooks.iml" afterPath="$PROJECT_DIR$/.idea/RentCollegeBooks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/index.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/order.rb" afterPath="$PROJECT_DIR$/app/models/order.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RentCollegeBooks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386355477927" ignored="false" />
-    <file path="/Dummy.txt" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386361513721" ignored="false" />
+    <file path="/Gemfile" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392352624868" ignored="false" />
+    <file path="/Dummy.txt" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392347894139" ignored="false" />
     <file path="/20131109165332_create_books.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384016066046" ignored="false" />
-    <file path="/seeds.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384154240947" ignored="false" />
+    <file path="/seeds.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392346984510" ignored="false" />
     <file path="/books.css.scss" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384032067518" ignored="false" />
     <file path="/application.html.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386346590137" ignored="false" />
-    <file path="/index.html.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386358376427" ignored="false" />
+    <file path="/index.html.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392348757733" ignored="false" />
     <file path="/book.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384025881362" ignored="false" />
     <file path="/Ruby Console" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384154717909" ignored="false" />
     <file path="/20131109184252_create_customers.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384023452631" ignored="false" />
@@ -26,7 +68,7 @@
     <file path="/a.sql" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384028127681" ignored="false" />
     <file path="/Data Source [2]" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384028739229" ignored="false" />
     <file path="/college_classes_controller.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384031123873" ignored="false" />
-    <file path="/show.html.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386359845880" ignored="false" />
+    <file path="/show.html.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392348493254" ignored="false" />
     <file path="/routes.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386352536118" ignored="false" />
     <file path="/customer.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384033342744" ignored="false" />
     <file path="/_form.html.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386349379016" ignored="false" />
@@ -36,17 +78,17 @@
     <file path="/new.html.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386359671490" ignored="false" />
     <file path="/login.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384057418430" ignored="false" />
     <file path="/account.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384057861977" ignored="false" />
-    <file path="/order.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386351351251" ignored="false" />
+    <file path="/order.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392347521575" ignored="false" />
     <file path="/semester.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384129015276" ignored="false" />
     <file path="/_selector.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384136659800" ignored="false" />
-    <file path="/orders_controller.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386359023541" ignored="false" />
+    <file path="/orders_controller.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392348529974" ignored="false" />
     <file path="/a.dummy" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386349654131" ignored="false" />
     <file path="/20131111051211_college_classes_orders.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384147251089" ignored="false" />
     <file path="/20131110043825_create_orders.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386344507325" ignored="false" />
-    <file path="/20131111060601_remove_class_id.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1384149990061" ignored="false" />
+    <file path="/20131111060601_remove_class_id.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392347832287" ignored="false" />
     <file path="/20131206154213_add_user_id_to_orders.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386344628010" ignored="false" />
     <file path="/application.css" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386358257184" ignored="false" />
-    <file path="/user.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386347323890" ignored="false" />
+    <file path="/user.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392347558147" ignored="false" />
     <file path="/_order.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386351503653" ignored="false" />
     <file path="/books_controller.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386357670434" ignored="false" />
     <file path="/search.erb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386358879787" ignored="false" />
@@ -55,6 +97,11 @@
     <file path="/orders.css.scss" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386356690263" ignored="false" />
     <file path="/application.js" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386357456880" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1386360085775" ignored="false" />
+    <file path="/README.rdoc" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392348871657" ignored="false" />
+    <file path="/20140214031819_drop_customers.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392347918589" ignored="false" />
+    <file path="/new_order_test.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392352061324" ignored="false" />
+    <file path="/users.yml" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392351475693" ignored="false" />
+    <file path="/sign_in_spec.rb" changelist="262e0e7d-a286-4c5b-9a37-03df465a3caf" time="1392352999882" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +125,35 @@
     <favorites_list name="RentCollegeBooks" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="18" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="19" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.8035714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -86,7 +161,7 @@
     </FindUsagesManager>
   </component>
   <component name="GeneratorOptions">
-    <option name="ENVIRONMENT" value="development" />
+    <option name="ENVIRONMENT" value="test" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,22 +174,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/orders/_order.erb" />
-        <option value="$PROJECT_DIR$/app/views/books/_book.erb" />
-        <option value="$PROJECT_DIR$/app/views/books/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/college_classes/show.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/controllers/books_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/orders.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/orders/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/books/_booklist.erb" />
-        <option value="$PROJECT_DIR$/app/views/books/search.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/models/order.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131111060601_remove_class_id.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140214031819_drop_customers.rb" />
         <option value="$PROJECT_DIR$/app/views/orders/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/orders/index.html.erb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/test/fixtures/orders.yml" />
+        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/test/integration/new_order_test.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/sign_in_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/features/sign_in_spec.rb" />
       </list>
     </option>
   </component>
@@ -156,8 +231,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,12 +245,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RentCollegeBooks3" />
+              <option name="myItemId" value="PillPack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +261,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sqlite-jdbc-3.7.15-M1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RentCollegeBooks5" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="Database.TableEditor.Splitter" value="0.9" />
@@ -194,9 +269,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -208,6 +283,11 @@
         </serverdata>
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/features" />
+    </key>
   </component>
   <component name="RunManager" selected="Rake.db:reset">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -728,14 +808,14 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14505672" sideWeight="0.70358306" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14505672" sideWeight="0.7052117" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.70358306" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.70358306" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28119937" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28606158" sideWeight="0.7052117" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29478827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29478827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -819,98 +899,51 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/orders.css.scss">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.1171875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/views/orders/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="60" selection-start="842" selection-end="842" vertical-scroll-proportion="0.7708333">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="4" column="23" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.5">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/orders/_order.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="30" selection-start="934" selection-end="934" vertical-scroll-proportion="0.7265625">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="59" selection-start="176" selection-end="176" vertical-scroll-proportion="0.125">
+        <state line="11" column="8" selection-start="267" selection-end="267" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/books/_booklist.erb">
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.9583333">
+        <state line="22" column="18" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/books/search.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="100" selection-end="100" vertical-scroll-proportion="0.083333336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/books/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="24" selection-end="91" vertical-scroll-proportion="0.083333336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="150" selection-end="150" vertical-scroll-proportion="0.078125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/orders/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="331" selection-end="331" vertical-scroll-proportion="0.7083333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="44" column="19" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.8035714">
           <folding />
         </state>
       </provider>

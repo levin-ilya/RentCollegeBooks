@@ -5,7 +5,8 @@ class OrdersController < ApplicationController
   # GET /orders
   # GET /orders.json
   def index
-    @orders = Order.where(customer_id:current_user.id)
+    @orders = Order.where(user_id:current_user.id)
+
   end
 
   # GET /orders/1
@@ -31,7 +32,7 @@ class OrdersController < ApplicationController
   # POST /orders
   # POST /orders.json
   def create
-    @order = Order.new(customer_id:current_user.id,semester_id:params[:order][:semester_id])
+    @order = Order.new(user_id:current_user.id,semester_id:params[:order][:semester_id])
     begin
       respond_to do |format|
         if @order.save
