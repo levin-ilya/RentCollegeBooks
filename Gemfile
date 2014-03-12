@@ -9,8 +9,13 @@ gem 'devise'
 #type ahead for searching
 gem 'twitter-typeahead-rails', :git => "git://github.com/yourabi/twitter-typeahead-rails.git"
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3', '1.3.8'
+end
+
+group :production do
+ gem 'mysql'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
